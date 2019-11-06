@@ -6,7 +6,7 @@ import RegisterDonor from "./components/dashboard/Donors/RegisterDonor"
 import LogOut from "./components/auth/LogOut"
 /* import Profile from "./components/Profile/Profile" */
 import DonorDetails from "./components/dashboard/Donors/DonorDetails"
-import Footer from "./components/Footer/Footer"
+
 
 import UserProfile from './components/Profile/UserProfile';
 const App = () => {
@@ -20,7 +20,7 @@ const App = () => {
         <Route exact path="/Details/:id" component={DonorDetails} />
         <Route exact path="/Profile" component={UserProfile} />
        
-        <Footer />
+      
         </Fragment>
       </Router>
     );

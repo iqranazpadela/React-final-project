@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import Group from '../../../UIComponents/Group';
 import { connect } from "react-redux"
-import Loader from "../../loader/Loader"
+import Loader from "../../loader/loader"
 
 class Donors extends Component {
   constructor() {
